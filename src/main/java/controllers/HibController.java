@@ -22,8 +22,8 @@ public class HibController {
     {
 
         UserHibernetUser u = new UserHibernetUser();
-        u.setFirst("1"+ System.currentTimeMillis());
-        u.setLast("1111");
+        u.setFirst("Фамилия"+ System.currentTimeMillis());
+        u.setLast("Имя");
         userDao.create(u);
         return "saved";
     }

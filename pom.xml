@@ -12,7 +12,7 @@
     <properties>
         <spring.framework.version>4.3.2.RELEASE</spring.framework.version>
         <hibernate.version>5.2.2.Final</hibernate.version>
-        <mysql.connector.version>5.1.38</mysql.connector.version>
+        <mysql.connector.version>8.0.11</mysql.connector.version>
         <hibernate.annotation.version>3.5.6-Final</hibernate.annotation.version>
 
     </properties>
@@ -78,11 +78,7 @@
             <version>${hibernate.version}</version>
         </dependency>
                             <!--!!!!!!!!!!!!!НАДО ЛИ ????????????-->
-        <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-annotations</artifactId>
-            <version>${hibernate.annotation.version}</version>
-        </dependency>
+
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-entitymanager</artifactId>

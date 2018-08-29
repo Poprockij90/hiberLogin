@@ -11,9 +11,9 @@ public class UserHibernetUser {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     private Long id;
-    @Column(name = "firstName")
+    @Column(name = "first")
     private String first;
-    @Column(name = "lastName")
+    @Column(name = "last")
     private String last;
 
     public UserHibernetUser() {
